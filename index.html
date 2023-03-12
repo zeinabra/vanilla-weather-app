@@ -18,6 +18,16 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="weather-form">
+            <input
+              type="search"
+              autocomplete="off"
+              autofocus="on"
+              id="search"
+              placeholder="Type a city..."
+            />
+            <input type="submit" value="Search" />
+          </form>
           <h1 id="city"></h1>
           <ul>
             <li>last updated:<span id="date"></span></li>
