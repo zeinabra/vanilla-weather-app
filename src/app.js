@@ -106,7 +106,6 @@ function displayFahranheitTemp(event) {
   let fahranheitTemperature = Math.round((celsiusTemperature * 9) / 5 + 32);
   let tempretureElement = document.querySelector("#temperature");
   tempretureElement.innerHTML = fahranheitTemperature;
-  let fahranheitClass = document.querySelector("#fahranheit-link");
   celsiusLink.classList.remove("active");
   fahranheitLink.classList.add("active");
 }
